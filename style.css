@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fe3f40;
+}
+
+.nav-bottom{
+    box-shadow: rgba(14, 14, 27, 0.15) 0px 3px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.spac{
+    color: #03a4ed;
+    font-size: 25px;
+}
+
+.dyna{
+    color: #fe3f40;
+    font-size:25px;
+}
+
+.contact-now{
+    border-radius: 25px;
+    padding: 5px 25px;
+    background-color: #fe3f40;
+    border: none;
+}
+.contact-now:hover{
+    background-color: #03a4ed;
+}
+
+.space-dynamic{
+    text-transform: uppercase;
+    color: #fe3f40;
+    font-size: 18px;
+}
+
+.digital-Idea{
+    font-size: 60px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 72px;
+}
+
+.space{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.digital-idea{
+    color: #03a4ed;
+    
+}
+
+.seo{
+    color: #fe3f40;
+}
+
+.paragraph{
+    margin: 20px 0px;
+    color: #2a2a2a;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.paragraph a{
+    text-decoration: none;
+}
+
+form {
+    margin-top: 30px;
+    width: 470px;
+    height: 66px;
+    position: relative;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+input {
+    width: 350px;
+    height: 66px;
+    background-color: #03a4ed;
+    border-radius: 33px;
+    border: none;
+    outline: none;
+    padding: 0px 25px;
+    color: white;
+    letter-spacing: 0.25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.main-button {
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fe3f40;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    outline: none;
+    border: none;
+}
+
+/* Start  Data Analysis, Data Reporting, Web Analytics, SEO Suggestions */
+.about-bg{
+    background-image: url('images/about-bg.png');
+    width: 100%;
+    background-size: cover;
+    padding: 50px 0px 150px 0px;
+}
+
+.data-analysis h3{
+    color: white;
+}
+.data-analysis p{
+    color: white;
+}
+
+.data-analysis-bg-color{
+    height: 150px;
+    width:300px;
+    padding: 15px 10px;
+    margin: auto;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.Website-Analysis h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin: 14px 0px;
+}
+/* End  Data Analysis, Data Reporting, Web Analytics, SEO Suggestions */
+
+.seo-service h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: relative;
+    z-index: 2;
+    line-height: 44px;
+}
+
+.seo-service p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+.SEO{
+    color: #03a4ed;
+}
+
+.projects{
+    color: #fe3f40;
+}
+
+@media all and (max-width:991px){
+    /* .welcomeToSpaceDynamic{
+        text-align: center;
+    } */
+ 
+    .data-analysis-bg-color{
+        background-color: red;
+    }
+    .about-bg{
+        background: none;
+    }
+    
+}
+
+@media all and (max-width:565px) {
+    .welcomeToSpaceDynamic{
+        text-align: center;
+    }
+    /* .form-method{
+        text-align: center;
+    } */
+    form#search {
+        margin-bottom: 26px;
+    }
+    .col-lg-6.seo-service {
+        margin-top: 35px;
+    }
+    .seo-service h1{
+        text-align: center;
+    }
+    .seo-service p{
+        text-align: center;
+    }
+ 
+}
+
+
